@@ -1,0 +1,378 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+
+.main {
+    background-image: url("./img/bg.jpg");
+    height: 100vh;
+}
+.master{    
+    background-image: linear-gradient(#000000, rgba(0, 0, 0, 0.5),#000000);
+    height: 100vh;
+}
+
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+nav img {
+    width: 17%;
+}
+
+.btn-section {
+    width: 19%;
+}
+
+.btn-section button {
+    color: rgb(230, 219, 219);
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-section button:first-child {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(214, 211, 211);
+}
+.btn-section button:last-child {
+    background-color: red;
+}
+
+.hero-section {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    height: 70vh;
+}
+
+.sub-hero {
+    width: 40%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 60%;
+}
+
+.sub-hero h1 {
+    font-size: 58px;
+    font-weight: 1000;
+    text-align: center;
+}
+.data{
+    width: 100%;
+}
+.data input{
+    width: 69%;
+    background: transparent;
+    height: 10vh;
+    padding: 0 0 0 10px;
+    border-radius: 4px;
+}
+.data button{
+    width: 29%;
+    color: white;
+    border-radius: 8px ;
+    /* font-size: 300; */
+    background-color: red   ;
+    height: 10vh;
+}
+.trending{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+.sub-trending{
+    width: 80%;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.card1{
+    width: 20%;
+}
+.card2{
+    width: 20%;
+}
+.card3{
+    width: 20%;
+}
+.card4{
+    width: 20%;
+}
+.card5{
+    width: 20%;
+}
+.m1 , .m2 ,.m3 ,.m4{
+    width: 23%;
+    background-image: linear-gradient(#1a2145,#201321);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+    padding: 20px 15px;
+    border-radius: 25px;
+
+}
+ span p{
+    margin-top: 10px;
+ }
+.mp{
+    display: flex;
+    justify-content: end;
+}
+.mp img{
+    width: 30%;
+    /* height: 80%; */
+}
+.Questions{
+    background-color: black;
+    /* width: 80%; */
+    display: flex;
+    justify-content:center;
+    /* align-items: center; */
+}
+.sub-question{
+    width: 80%; 
+   
+}
+.sub-question h3{
+    color: white;
+    /* margin: px; */
+}
+.q1,.q2,.q3,.q4,.q5,.q6{
+    padding: 0 10px;
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    background-color: gray;
+}
+.q1 span,.q2 span,.q3 span,.q4 span,.q5 span,.q6 span {
+    color: white;
+    display: flex;
+    padding: 10px 10px ; 
+    justify-content: end;
+    font-size: 60px;
+}
+.ea{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+}
+.gs{
+    width: 80%;
+    margin: 40px 0 0 0 ;
+    /* background-color: black; */
+}
+ .gs p {
+    /* font-size: 58px; */
+    font-weight: 1000;
+    color: white;
+    margin: 0 0 8px 0;
+    text-align: center;
+}
+.data2{
+    width: 100%;
+}
+.data2 input{
+    width: 50%;
+    background: transparent;
+    height: 10vh;
+    margin: 0 0 0 120px;
+    padding: 0 0 0 10px;
+    border-radius: 4px;
+    /* display: flex; */
+    /* justify-content:space-between; */
+}
+.data2 button{
+    width: 29%;
+    color: white;
+    border-radius: 8px ;
+    /* font-size: 300; */
+    background-color: red   ;
+    height: 10vh;
+}
+.calll{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+
+}
+.msg{
+    width: 80%;
+    /* background-color: antiquewhite; */
+}
+.msg h3{
+    color: white;
+    margin: 70px 0 20px 0;
+} 
+.msg h3 a{
+    color: white;
+}
+.s{
+    display: flex; 
+
+    justify-content: space-between;
+}
+.s1,.s2,.s3,.s4{
+    width: 20%;
+    display: flex;
+    color: white;
+    /* background-color: blueviolet; */
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 30vh;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    gap: 10px;
+    /* margin: 10px; */
+
+}
+.s1 a,.s2 a,.s3 a,.s4 a
+{
+    color: white;
+    /* text-decoration: none; */
+}
+.end{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.en{
+    width: 80%;
+    /* background-color: rgb(10, 10, 10); */
+}
+.btn-sec {
+    width: 19%;
+}
+
+.btn-section button {
+    color: rgb(230, 219, 219);
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-section button:first-child {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(214, 211, 211);
+}
+.endh{
+    color: width(1, 15, 15);
+    /* margin: 18px 0 0 0; */
+    background-color: black;
+    justify-content: center;
+    display: flex;
+}
+.endp{
+    /* background-color: aqua; */
+    width: 80%;
+/* color: white; */
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.endp h6,.endp h4{
+    margin: 40px 0 70px 0;
+    color: white;
+}
+.endp a{
+    color: blue;
+}
+@media (max-width:1190px){
+    nav{
+        padding: 10px;
+    }
+    .btn-section{
+        width: 30%;
+    }
+    
+}
+@media (max-width:768px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav img{
+        width: 35%;
+    }
+    .btn-section{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+   
+    .card{
+        flex-direction: column;
+    }
+    .card1, .card2 ,.card3 ,.card4 , .card5 ,.m1, .m2 ,.m3 ,.m4 , .s1, .s2 ,.s3 ,.s4{
+        width: 100%;
+        display: flex;
+        justify-content: center ;
+        height: auto;
+        margin-bottom: 5px;
+    }
+    .sub-hero{
+        width: 90%;
+    }
+    .sub-hero h1{
+        font-size: 24px;
+        margin-top: 100px;
+    }
+    .data{
+        display: flex;
+        flex-direction: column;
+    }
+    .data input , .data button {
+        width: 100%;
+    }
+    .hero-section{
+        height: auto;
+        margin-top: 50px;
+    }
+    .sub-hero h1 , .sub-hero h2, .sub-hero p, .data,  .data button{
+        margin-top: 10px;
+    }
+    .main , .master{
+        height: auto;
+    }
+    .sub-trending{
+        margin-top: 50px;
+    }
+    .s{
+        flex-direction: column;
+    }
+}
+@media (max-width:400px) {
+        nav img , .btn-section{
+            width: 50%;
+        }
+}
