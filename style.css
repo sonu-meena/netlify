@@ -114,20 +114,80 @@ nav img {
     margin-bottom: 50px;
 }
 .card1{
-    width: 20%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 180px;
+    height: 250px;
+     display: flex;
+    justify-content: end;
+
 }
 .card2{
-    width: 20%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 180px;
+    height: 250px;
+     display: flex;
+    justify-content: end;
+
+    
 }
 .card3{
-    width: 20%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 180px;
+    height: 250px;
+     display: flex;
+    justify-content: end;
+
+    
 }
 .card4{
-    width: 20%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 180px;
+    height: 250px;
+    display: flex;
+    justify-content: end;
+
 }
 .card5{
-    width: 20%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 180px;
+    height: 250px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: end;
+    
 }
+/* .card6{
+    width: 5%;
+} */
+ .card-number {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 100px;
+    font-weight: bold;
+    color: black;
+    /* border-color: 2px solid brown; */
+    text-shadow: 2px 2px 7px white;
+    /* border: 2px solid red; */
+    
+ }
+ .card1 img,.card2 img,.card3 img,.card4 img,.card5 img{
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+
+ }
+
 .m1 , .m2 ,.m3 ,.m4{
     width: 23%;
     background-image: linear-gradient(#1a2145,#201321);
@@ -271,7 +331,7 @@ nav img {
     width: 80%;
     /* background-color: rgb(10, 10, 10); */
 }
-.btn-sec {
+.en btn-section{
     width: 19%;
 }
 
@@ -313,6 +373,7 @@ nav img {
     .btn-section{
         width: 30%;
     }
+
     
 }
 @media (max-width:768px){
@@ -327,7 +388,8 @@ nav img {
         display: flex;
         flex-direction: column;
         /* justify-content: center; */
-        align-items: center;
+        align-items:center;
+        width: 50%;
     }
    
     .card{
@@ -370,6 +432,11 @@ nav img {
     .s{
         flex-direction: column;
     }
+
+    /* .calll{
+        flex-direction: column;
+        justify-content: center;
+    } */
 }
 @media (max-width:400px) {
         nav img , .btn-section{
